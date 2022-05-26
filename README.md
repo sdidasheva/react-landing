@@ -2,6 +2,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+YOu can see deployed version here [https://sdidasheva.github.io/react-landing/](https://sdidasheva.github.io/react-landing/)
+
 ## Available Scripts
 
 In the project directory, you can run:
