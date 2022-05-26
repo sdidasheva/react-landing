@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/react-landing/static/css/main.dae953d1.css",
+    "main.js": "/react-landing/static/js/main.ac1c006e.js",
+    "static/js/787.e2db7630.chunk.js": "/react-landing/static/js/787.e2db7630.chunk.js",
+    "static/media/collection_people.png": "/react-landing/static/media/collection_people.32e6b9e53a8af9de8e16.png",
+    "static/media/nft_grandfather.png": "/react-landing/static/media/nft_grandfather.e4d49ecb36e817496f68.png",
+    "static/media/nft_boy.png": "/react-landing/static/media/nft_boy.1ef4a5287a8e8c304e80.png",
+    "static/media/map_person3.png": "/react-landing/static/media/map_person3.e3a7a7714e2258415c59.png",
+    "static/media/map_person2.png": "/react-landing/static/media/map_person2.0f565dbe3f009bfa9720.png",
+    "static/media/team_person1.png": "/react-landing/static/media/team_person1.ffed9ddc3ce48eb28fcb.png",
+    "static/media/team_person6.png": "/react-landing/static/media/team_person6.1730f25092522b75d057.png",
+    "static/media/team_person2.png": "/react-landing/static/media/team_person2.ae9a9f5084d05f6a818e.png",
+    "static/media/team_person5.png": "/react-landing/static/media/team_person5.594af77affd07a167023.png",
+    "static/media/map_person1.png": "/react-landing/static/media/map_person1.008c301d153b9c35708a.png",
+    "static/media/logo.svg": "/react-landing/static/media/logo.a5f4a0e1ce790a6b23b33d739a3ea228.svg",
+    "index.html": "/react-landing/index.html",
+    "static/media/plus.svg": "/react-landing/static/media/plus.a17e4e4aaa912c598880115520173dbf.svg",
+    "main.dae953d1.css.map": "/react-landing/static/css/main.dae953d1.css.map",
+    "main.ac1c006e.js.map": "/react-landing/static/js/main.ac1c006e.js.map",
+    "787.e2db7630.chunk.js.map": "/react-landing/static/js/787.e2db7630.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dae953d1.css",
+    "static/js/main.ac1c006e.js"
+  ]
+}
