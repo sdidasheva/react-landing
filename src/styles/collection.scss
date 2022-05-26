@@ -1,0 +1,101 @@
+@import "styles.scss";
+
+.collection{
+    max-width: 1440px;
+    width: 100%;
+    height: 900px;
+    background: url('../images/collection_people.png') right/621px 666px no-repeat;
+    margin-top: 10px;
+}
+
+.collection_subtitle{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    img {
+        width: 33px;
+        height: 36px;
+    }
+    .subtitle{
+        font-family: $fontOpenSans;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 25px;
+        color: $fontColor;
+        padding-top: 12px;
+        margin-left: -15px;
+    }
+}
+
+.collection_title{
+    font-family: $fontMontserrat;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 58px;
+    text-align: center;
+    color: $fontColor;
+    margin-top: 3px;
+}
+
+.collection_blocks{
+    display: flex;
+    flex-direction: column;
+    margin-left: 55px;
+    max-width: 375px;
+    margin-top: 115px;
+}
+
+.block_title{
+    font-family: $fontMontserrat;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 22px;
+    color: $fontColor;
+    margin-top: 27px;
+    margin-bottom: 17px;
+}
+
+.block_text{
+    font-family: $fontOpenSans;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #404756;
+    margin-bottom: 32px;
+    max-width: 332px;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid rgba(64, 71, 86, 0.6);
+}
+
+.collection_block:last-child hr{
+    display: none;
+}
+
+@media screen and (max-width: 1023px) {
+    .collection{
+        background: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        height: fit-content;
+    }
+    .collection_blocks{
+        max-width: 450px;
+        margin-top: 30px;
+        margin-left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

@@ -1,0 +1,61 @@
+@import "styles.scss";
+
+.btn {
+    background-color: transparent;
+    border-radius: 12px;
+    position: relative;
+    display: block;
+    border: 1px solid $pink;
+    text-align: center;
+    color: $pink;
+    font-family: $fontOpenSans;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    overflow: hidden;
+    height: 45px;
+    width: 135px;
+    padding: 10px 28px;
+    a {
+        position: relative;
+        z-index: 1;
+        transition: 1s;
+        color: $pink;
+    }
+    .wave {
+        position: absolute;
+        top: calc(100% + 21px);
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: $pink;
+        transition: 1s;
+    }
+}
+
+button:hover a{
+    color: white;
+}
+button:hover .wave {
+    top: 0;
+}
+
+button .wave::before {
+                content: '';
+            position: absolute;
+            top: -21px;
+            left: 0;
+            width: 100%;
+            height: 21px;
+            background: url(../images/wave.png);
+            animation: animate 0.5s linear infinite;
+}
+
+@keyframes animate {
+    0% {
+        background-position-x: 0;
+    }
+    100% {
+        background-position-x: 118px;
+    }
+}

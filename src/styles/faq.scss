@@ -1,0 +1,122 @@
+@import "styles.scss";
+
+.faq {
+    max-width: 1440px;
+    width: 100%;
+    height: fit-content;
+    overflow: hidden;
+    background: url('../images/nft_colordots2.png') top left/343px 345px no-repeat;
+    margin-bottom: 150px;
+}
+
+.faq_subtitle{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 125px;
+    img {
+        width: 33px;
+        height: 36px;
+    }
+    .subtitle{
+        font-family: $fontOpenSans;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 25px;
+        color: $fontColor;
+        padding-top: 12px;
+        margin-left: -15px;
+    }
+}
+
+.faq_title{
+    font-family: $fontMontserrat;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 58px;
+    text-align: center;
+    color: $fontColor;
+    margin-top: 3px;
+    margin-bottom: 77px;
+}
+
+.questions{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+}
+
+.question{
+    display: flex;
+    flex-direction: column;
+    max-width: 960px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.question_visible{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    border: none;
+    border-bottom: 1px solid rgba(64, 71, 86, 0.6);
+    padding: 7px 15px;
+    background-color: transparent;
+    color: $fontColor;
+    span {
+        font-family: $fontMontserrat;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 22px;
+        color: $fontColor;
+        padding: 15px 0;
+    }
+    img {
+        width: 17px;
+        height: 17px;
+        transform: rotate(0deg)
+    }
+}
+.question_visible:hover span {
+    color: $fontColor;
+}
+
+.question_visible img.active {
+    transform: rotate(-45deg);
+}
+
+
+.question_toggle{
+    height: 0px;
+    opacity: 0;
+    transition:  
+    opacity 0.3s ease-in-out,
+    height 0.3s 0.3s ease-in-out;
+    p {
+        font-family: $fontMontserrat;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        color: $fontColor;
+        margin: 0;
+        padding: 22px 15px;
+        pointer-events: none;
+        max-height: fit-content;
+    }
+}
+
+.animated {
+    opacity: 1;
+    transition:  
+    height 0.3s ease-in-out,
+    opacity 0.3s 0.3s ease-in-out;
+}

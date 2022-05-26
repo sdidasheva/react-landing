@@ -1,0 +1,39 @@
+[
+    {
+        "percent": "0%",
+        "quater": "Q1 2022",
+        "title": "Community DAO",
+        "text": "Diam vestibulum mattis aliquam, urna condimentum id. Ultrices sit tincidunt diam integer amet, nec facilisis nec mi. Faucibus posuere turpis commodo leo ipsum magnis."
+    },
+    {
+        "percent": "20%",
+        "quater": "Q2 2022",
+        "title": "Opening Event",
+        "text": "Diam vestibulum mattis aliquam, urna condimentum id. Ultrices sit tincidunt diam integer amet, nec facilisis nec mi. Faucibus posuere turpis commodo leo ipsum magnis."
+    },
+    {
+        "percent": "40%",
+        "quater": "Q3 2022",
+        "title": "Charity Donation",
+        "text": "Diam vestibulum mattis aliquam, urna condimentum id. Ultrices sit tincidunt diam integer amet, nec facilisis nec mi. Faucibus posuere turpis commodo leo ipsum magnis."
+    },
+    {
+        "percent": "60%",
+        "quater": "Q4 2022",
+        "title": "Rare Giveaways",
+        "text": "Diam vestibulum mattis aliquam, urna condimentum id. Ultrices sit tincidunt diam integer amet, nec facilisis nec mi. Faucibus posuere turpis commodo leo ipsum magnis."
+    },
+    {
+        "percent": "80%",
+        "quater": "Q1 2023",
+        "title": "New Nfts",
+        "text": "Diam vestibulum mattis aliquam, urna condimentum id. Ultrices sit tincidunt diam integer amet, nec facilisis nec mi. Faucibus posuere turpis commodo leo ipsum magnis."
+    },
+    {
+        "percent": "100%",
+        "quater": "Q2 2023",
+        "title": "Metaverse",
+        "text": "Diam vestibulum mattis aliquam, urna condimentum id. Ultrices sit tincidunt diam integer amet, nec facilisis nec mi. Faucibus posuere turpis commodo leo ipsum magnis."
+    }
+
+]

@@ -1,0 +1,99 @@
+@import "styles.scss";
+
+.header {
+    max-width: 1440px;
+    width: 100%;
+    height: 105px;
+    .wrapper_header {
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        padding: 22px 65px 13px 65px;
+    }
+}
+
+.header_logo{
+    width: 69px;
+    height: 73px;
+}
+
+.wrapper_header .desk_nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.desk_nav_list{
+    display: flex;
+    gap: 30px;
+
+    >li {
+        
+        font-family: $fontOpenSans;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 25px;
+        >a{
+            color: $fontColor;
+        }
+    }
+}
+
+.mobile_nav{
+    display: none;
+}
+
+
+
+@media screen and (max-width: 767px) {
+    .wrapper_header .desk_nav {
+        display: none;
+    }
+    .desk_nav_list{
+        display: none;
+    }
+    .wrapper_header .mobile_nav {
+        display: flex;
+        flex-direction: column;
+        opacity: 1;
+    }
+    .mobile_nav_list{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 100px;
+        right: 0;
+        width: 100%;
+        background-color: white;
+        border-top: 2px solid $pink;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 15px;
+        >li {
+            
+            font-family: $fontOpenSans;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 22px;
+            line-height: 25px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            >a{
+                color: $fontColor;
+                &:hover {
+                    color: $pink;
+                }
+            }
+        }
+    }
+    .burger_icon {
+        display: block;
+        font-size: 40px;
+        color: $pink;
+        cursor: pointer;
+        position: absolute;
+        right: 5%;
+    }
+}

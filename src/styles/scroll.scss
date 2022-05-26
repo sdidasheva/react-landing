@@ -1,0 +1,17 @@
+@import "styles.scss";
+
+.scroll_btn {
+    position: fixed;
+    bottom: 15px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    color: $pink;
+    border-radius: 50%;
+    &:hover {
+        // width: 45px;
+        // height: 45px;
+        box-shadow: 0px 0px 10px 10px rgba(247, 133, 156, 0.24);
+    }
+}
